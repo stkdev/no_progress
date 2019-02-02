@@ -5,10 +5,19 @@
 「進捗どうですか？」撃退プロジェクト
 
 ## Setup
+### 初回
 
 ```
 docker-compose up -d
+docker-compose run web rake db:create
 ```
+
+### 初回以外
+```
+docker-compose up -d
+```
+
+[http://localhost:3000/](http://localhost:3000/)
 
 ## hogehoge
 
